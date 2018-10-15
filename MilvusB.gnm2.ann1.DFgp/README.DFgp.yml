@@ -43,3 +43,5 @@ citations: Jose J. De Vega, Sarah Ayling, Matthew Hegarty, Dave Kudrna, Jose L. 
 file_transformation: 
 changes: 
   - 2018-03-03 add MANIFEST files
+  - 2018-09-15 make prefixing in fasta consistent with IDs in gff3 (roughly, s/tripr.MilvusB.v2.Tp57577_TGAC_v2_/tripr.MilvusB.gnm2.ann1./)
+  - 2018-10-14 fixed the files tripr.MilvusB.gnm2.ann1.DFgp.cds_primaryTranscript.fna.gz tripr.MilvusB.gnm2.ann1.DFgp.protein_primaryTranscript.faa.gz to use appropriate primary IDs in headers (ie not the gene IDs) and also to correctly limit to a single isoform per gene; noticed that fastas are missing any representation for gene with ID=tripr.MilvusB.gnm2.ann1.gene29308 ; this appears to be due to a bug of some sort in gffread but as the CDS of that gene is only 12 bp long, it seems not worth worrying about any more than I already have
