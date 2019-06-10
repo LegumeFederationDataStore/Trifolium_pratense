@@ -21,7 +21,8 @@ genotype: MilvusB
 
 description: Genome assembly (seudomolecules) for Trifolium pratense, Milvus B
 
-dataset_doi: 
+dataset_doi: none
+
 genbank_accession: GCA_900079335.1
 
 original_file_creation_date: 2016-01
@@ -42,7 +43,8 @@ public_access_level: public
 
 license: Open
 
-keywords: 
+keywords: Red clover, Trifolium pratense
+
 citations: Jose J. De Vega, Sarah Ayling, Matthew Hegarty, Dave Kudrna, Jose L. Goicoechea, shild Ergon, Odd A. Rognli, Charlotte Jones, Martin Swain, Rene Geurts, Chunting Lang, Klaus F. X. Mayer, Stephan Rossner, Steven Yates, Kathleen J. Webb, Iain S. Donnison, Giles E. D. Oldroyd, Rod A. Wing, Mario Caccamo, Wayne Powell, Michael T. Abberton & Leif Skot. Red clover (Trifolium pratense L.) draft genome provides a platform for trait improvement. Scientific Reports 5, Article number: 17394 (2015). https://doi.org/10.1038/srep17394
 
 file_transformation: 
